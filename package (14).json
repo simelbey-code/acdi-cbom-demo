@@ -1,0 +1,26 @@
+{
+  "name": "acdi-cbom-demo",
+  "version": "2.3.0",
+  "description": "ACDI Cryptographic Bill of Materials - External TLS Assessment Demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "cryptography",
+    "pqc",
+    "post-quantum",
+    "cbom",
+    "tls",
+    "security"
+  ],
+  "author": "IFG Quantum Holdings",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
